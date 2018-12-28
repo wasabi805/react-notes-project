@@ -1,0 +1,118 @@
+@mixin screen-media-queries{
+//
+//  /* Smartphones (portrait) ----------- */
+//  @media only screen and (min-width: 1px) and (max-width : 320px) {
+//    /* Styles */
+//    * {
+//      h1 {
+//        font-size: 1.4em;
+//      }
+//      h2{
+//        font-size: .8em;
+//        font-weight: bold;
+//      }
+//      p{
+//        font-size: .7em;
+//      }
+//    }
+//
+//    .article-preface{
+//      padding: 1em;
+//    }
+//
+//    .side-nav-column{
+//      display: none;
+//
+//    }
+//  }
+//
+//  //Tablet
+//  @media only screen and (min-width : 321px) and (max-width: 767px){
+//    /* Styles */
+//    *{
+//      h1{
+//        font-size: 2em;
+//      }
+//      h2{
+//        font-size: .8em;
+//        font-weight: bold;
+//      }
+//      p{
+//        font-size: 10px;
+//      }
+//
+//      .side-nav-column{
+//        display: none;
+//      }
+//
+//
+//
+//    }
+//
+//    //.sidenav{
+//    //  width: 20%;
+//    //  padding: 1em;
+//    //  background-color: #111;
+//    //
+//    //  a{
+//    //    text-align: center;
+//    //    padding: 5px;
+//    //    font-size: 15px;
+//    //    border: 1px solid #f2f2f2;
+//    //    border-radius: 6px;
+//    //
+//    //  }
+//    //}
+//
+//    //.section {
+//    //  img{
+//    //    width: 33%;
+//    //  }
+//    //}
+//
+//    .article-preface{
+//      padding: .75em;
+//    }
+//  }
+//
+//  /* iPads (portrait) ----------- */
+//  @media only screen and (min-width : 768px) and (max-width : 1024px) {
+//    /* Styles */
+//    *{
+//      h1{font-size: 2.2em;}
+//      h2{font-size: 1.4em; font-weight: bold;}
+//
+//    }
+//    .side-nav-column{
+//      display: none;
+//    }
+//
+//  }
+//
+//  /* iPads (landscape) ----------- */
+//  //@media only screen and (min-width : 768px) and (max-width : 1024px) and (orientation : landscape) {
+//  //  /* Styles */
+//  //}
+//
+//  /* Lg Large screens ----------- */
+//  @media only screen  and (min-width : 1025px) and( max-width: 1823px) {
+//
+//  }
+//
+//  /* XL Large screens ----------- */
+//  @media only screen  and (min-width : 1824px) {
+//    .sidenav{
+//      //width: 20%;
+//
+//      padding: 3em;
+//      //background-color: lime;
+//
+//      li{
+//        font-size: 1.6em;
+//      }
+//
+//    }
+//
+//  }
+//
+}

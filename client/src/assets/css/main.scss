@@ -1,0 +1,542 @@
+@import ".././sass/screen-media-queries";
+@import "../sass/nav-modal";
+@include screen-media-queries;
+@include nav-modal;
+
+html{
+  //overflow-x: hidden;
+}
+
+*{
+  li{
+    list-style: none;
+  }
+  margin: 0;
+  padding: 0;
+};
+
+.body-content{
+  position: relative;
+  flex-direction: column;
+  margin-top: 3em;
+  padding: -1em;
+  width: 100%;
+
+
+  border-style: solid;
+  border-width: 4px;
+  /* padding-top: 2em; */
+  border-radius: 2px 2px;
+
+  font-family: 'Raleway', sans-serif;
+  overflow-x: hidden;
+
+
+}
+
+
+
+
+.article-content-box1{
+  background-color: #f2f2f2;
+  margin-bottom: 2em;
+}
+
+.article-content-box2{
+  background-color: #c3dee3;
+  margin-bottom: 2em;
+}
+
+.wrapper-code-block{
+  background-color: #1111110f;
+  font-family: Menlo,Monaco,"Courier New",Courier,monospace;
+}
+
+
+
+.section-main{
+  //position: absolute
+  padding-top: 10em;
+  width: 100%;
+  top:3em;
+  transform: translateX(25%);
+  padding-bottom: 5em;
+  background-image: linear-gradient(to bottom right, rgba(144, 179, 248, 0.21), #dadee5);
+}
+
+.section-img-box{
+  object-fit: contain;
+  width: 60%;
+  margin: 2em auto;
+}
+
+
+.code-block-snippet{
+  display: block;
+  padding: 1em;
+  font-size: 75%;
+  border-bottom-left-radius: 6px;
+  border-bottom-right-radius: 6px;
+
+  //border-top-right-radius: 6px;
+}
+.terminal{
+  background-color: #2e3945;
+  color: #07f207;
+  font-family: Monaco;
+}
+
+.ide{
+  background-color: black;
+  color: white;
+  overflow: overlay;
+}
+
+.inline-snippet{
+  display: block;
+  color: #f2f2f2;
+  background-color: black;
+}
+
+
+
+.button{
+  border-radius: 12px;
+  padding: 1em;
+  text-align: center;
+  margin-bottom: 10px;
+}
+.button p{
+  margin-bottom: 0;
+}
+
+.button-side-nav{
+  background-color: #f2f2f2;
+}
+
+.nav-container{
+  display: block;
+  -webkit-box-shadow: 1px 10px 100px 0px rgba(0,0,0,0.75);
+  -moz-box-shadow: 1px 10px 100px 0px rgba(0,0,0,0.75);
+  box-shadow: 1px 10px 100px 0px rgba(0,0,0,0.75);
+}
+
+.nav-and-body-box{
+  position: relative;
+  top: 6rem;
+}
+
+/*sections*/
+.nav-bar-wrapper{
+  position: fixed;
+  display: inline-flex;
+  padding: 1em;
+  //background-color: #646a72;
+  background-image: linear-gradient(#646a72, #868d9e);
+  width : 100%;
+  height: 6rem;
+  z-index: 1;
+
+}
+
+.hamburger{
+  fa{
+    color: #c8ccca;
+  }
+
+}
+
+.nav-item{
+  display: inline-block;
+  color: #f2f2f2;
+  z-index: 3;
+
+  h1{
+    font-family: Thunderstorm;
+    padding-left: 0.1em;
+    color: hotpink;
+    right: 10px;
+    text-shadow: 3px 3px 0px #69fff9;
+    background: -webkit-linear-gradient(#d9ff42, #69ffeb);
+    border-top-left-radius: 6px;
+    border-top-right-radius: 6px;
+    border-bottom-left-radius: 6px;
+    border-bottom-right-radius: 6px;
+  }
+}
+
+.vertical-bar{
+  font-weight: 100;
+}
+
+
+.nav-header-link-wrapper{
+  display: inline-block;
+  margin: 0;
+  padding: 0;
+  //list-style: ;
+  li{
+    display: inline;
+    margin:  1em 1.5em;
+  }
+}
+.links-and-fa{
+  position: absolute;
+  right: 0px;
+}
+
+
+.fontAwesome-container{
+  padding: 0;
+  font-size: 2em;
+  width: 7em;
+  display: inline-block;
+
+};
+
+.fontAwesome-icon{
+  position: relative;
+  display: inline-block;
+  width: 25%;
+  margin: 0 auto;
+
+}
+
+.fa-bg{
+  position: absolute;
+  width: 1em;
+  height: 1em;
+  z-index: 0;
+
+}
+
+.facebook-bg{
+  background-color: #f2f2f2;
+}
+
+.facebook{
+  color: #3B5998;
+  z-index: 8;
+  position: absolute;
+}
+
+
+
+.google{
+  z-index: 8;
+  position: absolute;
+}
+
+.linkedin{
+  z-index: 8;
+  position: absolute;
+}
+
+.fa-linkedin{
+  &:before{
+    color: #0077B5;
+    background-color: white;
+  }
+}
+
+.fa-google{
+  &:before{
+    color: white;
+    background-color: #f86500;
+  }
+}
+
+.fa-facebook{
+  &:before{
+    color: #3B5998;
+    background-color: white;
+  }
+}
+
+.test{
+  font-family: Standaris;
+}
+
+
+
+.tf-hook{
+  position: absolute;
+}
+
+
+
+.side-nav-column{
+  //THIS IS THE MAIN BG COLOR FOR SIDE NAV
+  //background-color: #111;
+
+  box-shadow: 1px 10px 100px 0px rgba(0, 0, 0, 0.51);
+  z-index: 3;
+  //flex-grow: 1;
+  font-size: 12px;
+  background-color: #131414;
+
+  ul{
+    height: 100%;
+  }
+}
+
+
+
+.sidenav-link-wrapper{
+  background-color: white;
+  position: absolute;
+  top: 5em;
+
+}
+
+
+//.sidenav{
+//
+//  padding-top: 1em;
+//  padding-right: 1em;
+//  padding-left: 1em;
+//  position: sticky;
+//  top: 60px;
+//  overflow: overlay;
+//  left: 0;
+//  background-image: linear-gradient(to right , #1a1b1c, #111);
+//}
+//
+//.sidenav a, .dropdown-btn {
+//  padding: 6px 8px 6px 16px;
+//  margin-right: 2em;
+//  text-decoration: none;
+//  font-size: 0.9em;
+//  color: #fdfdfd;
+//  display: block;
+//  border: none;
+//  background: none;
+//  width: 100%;
+//  text-align: left;
+//  cursor: pointer;
+//  outline: none;
+//}
+
+/* On mouse-over */
+.sidenav a:hover, .dropdown-btn:hover {
+  color: #a5eeff;
+}
+
+/* Main content */
+.main {
+  margin-left: 200px; /* Same as the width of the sidenav */
+  font-size: 20px; /* Increased text to enable scrolling */
+  padding: 0px 10px;
+}
+
+/* Add an active class to the active dropdown button */
+.active {
+  background-color: #56a4c1;
+  color: white;
+}
+
+/* Dropdown container (hidden by default). Optional: add a lighter background color and some left padding to change the design of the dropdown content */
+.dropdown-container {
+  display: none;
+  background-color: #262626;
+  padding-left: 8px;
+  li{
+    font-size: 1.1em;
+  }
+
+}
+
+
+
+/*content*/
+.landing-main{
+  position: absolute;
+  background-color: purple;
+  /*height: 100%;*/
+}
+
+//modall
+//for the span
+.w3-button w3-display-topright{
+  border: none;
+  display: inline-block;
+  padding:8px 16px;
+  vertical-align: middle;
+  overflow: hidden;
+  text-decoration: none;
+  color: inherit ;
+  background-color: inherit;
+  text-align: center;
+  cursor: pointer;
+  white-space: nowrap;
+}
+
+
+.article-header{
+  &:after{
+    content: '';
+    position: absolute;
+    background: rgba(255,253,248, .8);
+    opacity: .4;
+    width: 15em;
+    height: 15em;
+    top:0;
+    z-index: 0;
+  }
+
+  h1{
+    z-index: 1;
+    //background-color: #111111;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: -webkit-linear-gradient(#a7d9ee, #ff5bea);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-family: 'The Moonlight';
+
+  }
+}
+
+//For code Snippets:
+
+.highlight-text{
+  background-image: linear-gradient(#121929, #504848);
+  padding: .1em .4em;
+
+  //border-top-right-radius: 2px;
+  //border-top-left-radius: 2px;
+  //border-bottom-right-radius: 2px;
+  //border-bottom-left-radius: 2px;
+}
+
+.indent_list{
+  padding-left: 3em;
+}
+
+.dark-out-text{
+  color: rgb(85, 85, 85);
+}
+.muted{
+  opacity: 0.3;
+}
+
+.muted-2{
+  opacity: 0.5;
+}
+
+.text-white{
+  color: white;
+};
+
+.text-red{
+  color: red;
+}
+
+.text-magenta{
+  color: #b93c79;
+}
+
+.text-orange{
+  color: orange;
+}
+
+.text-yellow{
+  color: yellow;
+}
+
+.text-lime{
+  color: lime;
+}
+
+.text-cyan{
+  color: cyan;
+}
+
+.text-hotpink{
+  color: hotpink;
+}
+
+.text-purple{
+  color: mediumpurple;
+}
+
+.text-blue{
+  color: #7f9ffd;
+}
+
+.peach-text{
+  color: #e67659;
+}
+
+.text-moccasin{
+  color: moccasin;
+}
+
+.text-pink{
+  color: #ffb3b3;
+}
+
+.yellow-green-text{
+  color: yellowgreen;
+}
+
+.text-orange-return{
+  color: #d06a19
+}
+
+.breakdown-main{
+  overflow-x: scroll;
+  background-color: #54a7a226;
+  padding: 1em 0;
+  border-radius: 6px;
+  p{
+    margin: 0;
+  }
+
+};
+
+.breakdown-li{
+  font-size: 10px;
+  width: max-content;
+}
+
+.breakdown-code-style-ide{
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New", monospace;
+  font-weight: lighter;
+  font-size: 9.75px;
+}
+
+
+.rectangle-wrap{
+  shape-outside: inset(50px 50px 50px 0px);
+  background-color: #ddd;
+  /* clip-path: inset(0 0 10px 0); */
+  /* background-color: red; */
+  width: 200px;
+  height: 200px;
+  float: left;
+}
+
+.body-container{
+  background-image: url(https://image.ibb.co/gZKe8A/81571260-ice-cream-geometrical-seamless-pattern-memphis-style-trendy-80s-90s-style-cartoon-hand-drawn-motifs.jpg);
+
+
+  @media only screen  and (min-width : 1025px){
+    left: 12em;
+    position: relative;
+    height: 100%;
+    padding-bottom: 10em;
+  }
+
+}
+
+
+.inline-item-container{
+  display: block;
+  flex-direction: row;
+  flex-grow: 1;
+  @media only screen and (min-width : 1026px)  {
+    width: 1em;
+  }
+}

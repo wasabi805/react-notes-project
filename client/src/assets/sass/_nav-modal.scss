@@ -1,0 +1,82 @@
+@mixin nav-modal {
+  .w3-modal {
+    z-index:3;
+    //display:none;
+    display:block;
+    padding-top:100px;
+    position:fixed;left:0;top:96px;width:100%;height:100%;overflow:auto;background-color:rgb(0,0,0);background-color:rgba(0,0,0,0.4)
+  }
+
+  .w3-button{
+    border:none;
+    display:inline-block;
+    padding:8px 16px;
+    vertical-align:middle;
+    overflow:hidden;text-decoration:none;color:inherit;background-color:inherit;
+    text-align:center;cursor:pointer;white-space:nowrap;
+
+    //-webkit-touch-callout:none;-webkit-user-select:none;-khtml-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none;
+  }
+  .w3-animate-left{
+    position:relative;
+    animation:animateleft 0.4s;
+    animation-direction:normal
+  } @keyframes animateleft{from{left:-300px;opacity:0} to{left:0;opacity:1} }
+
+  //.w3-animate-right{
+  //  position:relative;
+  //  animation:animateright 0.4s
+  //} @keyframes animateright{from{left: 0px;opacity:1} to{left:-300;opacity:0} }
+
+
+  .w3-card-4{
+    box-shadow: 0 4px 10px 0 rgba(0,0,0,0.2),0 4px 20px 0 rgba(0,0,0,0.19)
+  }
+
+  .w3-container{
+    padding:0.01em 16px;
+
+    &:before{
+      content:"";display:table;clear:both
+    }
+
+    &:after{
+      content:"";display:table;clear:both
+    }
+  }
+
+  .bg-smoke{
+    background-color: #f2f2f2;
+  }
+
+  .modalNav{
+    display: block;
+    padding-top: 2em ;
+    padding-left: 1em;
+    position: fixed;
+    top: 6em;
+    height: 100%;
+    background-color: #111;
+  }
+
+  .modalNav a, .dropdown-btn {
+    padding: 6px 8px 6px 16px;
+    text-decoration: none;
+    font-size: 14px;
+    color: #818181;
+    display: block;
+    border: none;
+    background: none;
+    width: 100%;
+    text-align: left;
+    cursor: pointer;
+    outline: none;
+  }
+
+  /* On mouse-over */
+  .modalNav a:hover, .dropdown-btn:hover {
+    color: #f1f1f1;
+  }
+
+}
+
