@@ -1,10 +1,29 @@
-import {GET_TEXT_008_A_BACKEND_ROUTES_PART_I, GET_TEXT_008_B_BACKEND_ROUTES_PART_II_LOGIN, GET_TEXT_008_C_BACKEND_ROUTES_PART_III_ISSUE_TOKEN, GET_TEXT_008_D_BACKEND_ROUTES_PART_IV_ISSUE_TOKEN} from './types'
+import {
+    //API SECTION TEXT
+    GET_TEXT_001_AJAX_AND_API_BASIC_API_CALLS,
 
+    //FULL STACK SECTION TEXT
+    GET_TEXT_008_A_BACKEND_ROUTES_PART_I,
+    GET_TEXT_008_B_BACKEND_ROUTES_PART_II_LOGIN,
+    GET_TEXT_008_C_BACKEND_ROUTES_PART_III_ISSUE_TOKEN,
+    GET_TEXT_008_D_BACKEND_ROUTES_PART_IV_ISSUE_TOKEN
+} from './types'
 
 import {section_text} from '.././reducers/text/section-text';
 
 
+//API SECTION TEXT
+// GET_TEXT_001_AJAX_AND_API_BASIC_API_CALLS,
+export const get_text_001_ajax_and_api_basic_api_calls = (text)=>{
 
+    text = section_text.text_001_ajax_and_api_basic_api_calls;
+    return{
+        type: GET_TEXT_001_AJAX_AND_API_BASIC_API_CALLS,
+        payload: text
+    }
+};
+
+//FULL STACK SECTION TEXT
 export const get_text_008a_backend_routes_part_I = (text)=>{
     text = section_text.text_008A_backend_routes_part_I;
     return{

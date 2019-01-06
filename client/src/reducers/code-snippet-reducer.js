@@ -14,6 +14,9 @@ import {
     GET_009_SET_UP_REDUX,
     GET_010_REDUX_REACT_ACTIONS,
 
+    //API SECTIONS
+    GET_SNIPPETS_001_AJAX_AND_API_BASIC_API_CALLS,
+
 } from '../actions/types'
 
 const initialState={
@@ -59,6 +62,11 @@ export default (state=initialState, action) =>{
             return state.code = action.payload;
 
         case GET_010_REDUX_REACT_ACTIONS:
+            return state.code = action.payload;
+
+
+        //API SECTIONS
+        case GET_SNIPPETS_001_AJAX_AND_API_BASIC_API_CALLS:
             return state.code = action.payload;
 
 

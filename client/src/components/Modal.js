@@ -1,5 +1,9 @@
 import React, {Component} from 'react';
-import classNames from 'classnames'
+import classNames from 'classnames';
+import {connect} from 'react-redux';
+
+import {get_side_nav_sections} from '../actions/navigation-actions'
+
 
 
 import NavigationLinks from './navigation/navigation-links'
@@ -12,25 +16,9 @@ class Modal extends Component{
         }
     }
 
-    componentDidMount(){
-        // // https://www.w3schools.com/howto/howto_js_dropdown_sidenav.asp
-        // let dropdown = document.getElementsByClassName("dropdown-btn");
-        //
-        // let i;
-        // for (i = 0; i < dropdown.length; i++) {
-        //     dropdown[i].addEventListener("click", function() {
-        //         this.classList.toggle("active");
-        //         let dropdownContent = this.nextElementSibling;
-        //         if (dropdownContent.style.display === "block") {
-        //             dropdownContent.style.display = "none";
-        //         } else {
-        //             dropdownContent.style.display = "block";
-        //         }
-        //     });
-        // }
-    }
-
     render(){
+        console.log(this.props, "SQUAURE ONE");
+
         return(
             <div id="id01" className="w3-modal " style={this.props.toggleNavModal}>
                 {/*<nav className='modalNav w3-animate-left '>*/}
@@ -45,4 +33,12 @@ class Modal extends Component{
     }
 };
 
-export default Modal
+const mapDispatchToProps={
+    get_side_nav_sections
+};
+
+const mapStateToProps=(state)=>({
+    set_side_nav_links : state.navigation
+});
+
+export default connect(mapStateToProps, mapDispatchToProps)(Modal)

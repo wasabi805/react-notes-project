@@ -52,6 +52,7 @@ export const ImageStyled = styled.div.attrs({
     padding-left: ${props => props.theme.paddingLeft || ''};
     padding-right: ${props => props.theme.paddingRight || ''};
     margin-top: ${props => props.theme.marginTop || ''};
+    margin-bottom: 2em;
     
     
     transform: ${props => props.theme.transform || ''};
@@ -62,6 +63,12 @@ export const ImageStyled = styled.div.attrs({
     img{
         width: 100%;
     }
+    
+    @media only screen and (min-width : 1500px){
+        width: 100%;
+    }
+    
+    
 `;
 
 ImageStyled.defaultProps = {

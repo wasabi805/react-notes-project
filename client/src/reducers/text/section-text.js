@@ -1,5 +1,108 @@
 export const section_text = {
 
+    //API SECTIONS
+    text_001_ajax_and_api_basic_api_calls: {
+        highlight: 'highlight-text text-',
+
+        install_dependencies: [
+
+            {key: 'basic-api-call-npm-init',
+                term:[],
+
+                text_01: "First, make sure that you have an express server: In your terminal, make sure that you're in the root directory then run:",
+
+                sub_list : []
+            },
+        ],
+
+        set_up_users_js_ajax_call : [
+            {key: 'router-dot-get-ajax-call',
+                term:[{id: "router", name:'router', color: 'moccasin'}, {id: "get", name:'.get( )', color: 'cyan'},],
+
+                text_01: "Takes two arguments, a route and a callback",
+
+                sub_list : [
+                    {key: 'route-ajax-call', letter: 'a.)', sub_term: [{name: " '/all-users' ",  color:'white', text: " The Route: We'll define the name of the route that our server will respond back with the data from the api call." }, ]},
+                    {key: 'callback-ajax-call', letter: 'b.)', sub_term: [{name: '()=>{ ... }:',  color:'white', text: "The callback : See step 2.) below for the arguments and the functionality that within the code block of this callback."} , ]},
+                ]
+            },
+
+            {key: 'router-dot-get-callback-ajax-call',
+                term:[{name:'(req ,', color: 'white'}, {name:'res', color: 'yellow'}, {name:' )=>{', color: 'white'}],
+
+                text_01: "Takes two required standard arguments of req and res since we are making a call to our server. Steps 2c, 2d provide an explanation for what is needed inside the code block of this callback. ",
+
+                sub_list : [
+                    {key: 'axios-dot-get', letter: 'c', sub_term: [{id: "axios", name: "axios",  color:'purple'}, {id: "",name: ".get( )",  color:'cyan', text: "axios.get() will receive two arguments: The first is the URI for our ajax call. In this example, the URI is https://jsonplaceholder.typicode.com/users. The second argument is the res argument from step 2.) "} ]},
+                    {key: 'axios-dot-get-promise', letter: 'd', sub_term: [{id: "",name: '.then( )',  color:'red', text: " : A promise will get appended to axios.get( ). A callback will get passed into .then() as the only argument for .then( ) .Step 3 will explain the functionality that will go inside the callback.  "} , ]},
+                ]
+            },
+
+            {key: 'axios-dot-get-promise-callback-code-block-ajax-call',
+                term:[{name:'user', color: 'orange'}, {name:' =>{ } ', color: 'white', text: " "}],
+
+                text_01: " ",
+
+                sub_list : [
+                    {key: 'console-log-user-ajax-call', letter: 'f.)', sub_term: [{name: "console.log(",  color:'white'}, {name: "user",  color:'orange', } , {name: ')' , color: 'white', text: " We'll first start by viewing what is contained in the response by simply console logging the user argument of our callback."} ]},
+                ]
+            },
+
+            {key: 'dot-catch-ajax-call',
+                term:[{name:'.catch( )', color: 'white'}, ],
+
+                text_01: " append a .catch( ) to the promise from step 2d. Pass a callback as an argument to .catch( ) . This callback will simply take an err argument which will console.log the err if any.  ",
+
+                sub_list : [
+                ]
+            },
+
+            {key: 'module-dot-exports-router-axios-ajax-call',
+                term:[{name:'module.exports = [', color: 'white'}, {name: "router", color: "moccasin"} ,{name: "," , color: "white"} ,{name: "axios" , color: "purple"},{name: "];" , color: "white"}],
+
+                text_01: " append a .catch( ) to the promise from step 2d. Pass a callback as an argument to .catch( ) . This callback will simply take an err argument which will console.log the err if any.  ",
+
+                sub_list : [
+                ]
+            },
+        ],
+
+        fetch_api : [
+            {key: 'this-dot-state-users-fetch-api',
+                term:[{name:'this.', color: 'white'}, {name:'state', color: 'orange'},],
+
+                text_01: "",
+
+                sub_list : [
+                    {key: 'state-dot-users-fetch-api', letter: 'a.)', sub_term: [{name: "users",  color:'cyan', text: " : The initial value for users is an empty array. " }, ]},
+                ]
+            },
+
+            {key: 'component-did-mount-fetch-api',
+                term:[{name:'componentDidMount(){}', color: 'lime'},],
+
+                text_01: "Inside the code block for React's componentDidMount lifecycle method, we'll use the fetch() api followed by two promises that will be chained to the end of fetch().    ",
+
+                sub_list : [
+                    {key: 'fetch-fetch-api', letter: 'b.)', sub_term: [{name: "fetch(",  color:'hotpink'}, {name: "'/api/users/all-users'",  color:'white'}, {name: ")",  color:'hotpink', text: " : pass the in the node server url which is responsible for making the axios get request to the external api as an arg to the as an arg to fecth()  "} ]},
+                    {key: 'promise-01-fetch-api', letter: 'c.)', sub_term: [{name: '.then(',  color:'blue'} , {name: 'res',  color:'pink'}, {name: '=>',  color:'white'}, {name: 'res',  color:'pink'}, {name: '.json()',  color:'white'}, {name: ')',  color:'blue' , text: " : Since fetch returns a promise that resolves a response to the requested URL passed into fetch, we can pass the first .then() a callback with the responses as an argument to the callback.  This first .then() is responsible for converting the response into json by appending the .json() method to the end of the response  "} ]},
+                    {key: 'promise-02-fetch-api', letter: 'd.)', sub_term: [{name: '.then(',  color:'red'}, {name: 'users',  color:'moccasin'}, {name: '=> this.setState({',  color:'white'}, {name: 'users',  color:'cyan'}, {name: ':',  color:'white'}, {name: 'users',  color:'moccasin'}, {name: '})',  color:'white'}, {name: ')',  color:'red', text: " : the second .then() appended to the first .then() receives the json object resolved by the first .then(). This primary job of the second .then() is to set state.user's value to the object that was retrieved using .fetch() "}, ]}
+                ]
+            },
+
+            {key: 'render-users-fetch-api',
+                term:[{name:'{this.', color: 'white'}, {name:'state', color: 'orange'}, {name:'.', color: 'white'}, {name:'users', color: 'cyan'}, {name:'}', color: 'white'}, ],
+
+                text_01: " : Use JSX to render state.users after setState is called.",
+
+                sub_list : []
+            },
+
+        ],
+    },
+
+    //FULL STACK SECTIONS
+
     text_008A_backend_routes_part_I: {
 
         find_user_email: [

@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+
 import {BrowserRouter as Router, Route} from 'react-router-dom'
 import './assets/css/main.scss';
 import {Provider} from 'react-redux'
@@ -36,6 +37,13 @@ import SomeOtherRoute2 from './components/section-components/008_c_create_a_toke
 import ImplementPassport from './components/section-components/008_d_passport'
 import SetUpRedux from './components/section-components/009-set-up-redux'
 import ReduxReactActions from './components/section-components/010-redux-react-actions'
+
+
+//API SECTIONS
+import BasicApiCall from './components/section-components/ajax-and-api/001-basic-api-call'
+
+//TEST Stuff
+import YoutubePlayer from './components/section-components/900-youtube-player-test'
 
 
 // JavaScript Sections:
@@ -267,7 +275,6 @@ class App extends Component {
                                     {/*THE MAIN MOBILE-NAV-COMP*/}
 
                                         <MainContent>
-                                            {/*<div className='body-content pl-0 '>*/}
 
                                             <Route exact path="/" render={()=> <Landing/>} />
 
@@ -292,6 +299,11 @@ class App extends Component {
                                             <Route path='/008-d-implement-passport' render={()=> <ImplementPassport/>} />
                                             <Route path="/set-up-redux" render={() =>  <SetUpRedux/>} />
                                             <Route path='/redux-react-actions' render={()=> <ReduxReactActions/>} />
+
+                                            <Route path='/youtube-player-test-01' render={()=> <YoutubePlayer/>} />
+
+                                            <Route path='/basic-api-call' render={()=> <BasicApiCall/>} />
+
 
                                             {/*NodeSections*/}
                                             <Route path="/api-part-one" render={() =>  <ApiPartOne/>} />

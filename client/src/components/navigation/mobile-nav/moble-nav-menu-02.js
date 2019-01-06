@@ -3,13 +3,14 @@ import {MobileNavOverlayContent2, MobileNavOverlayButtonContainer} from "../../s
 import {Link} from 'react-router-dom'
 
 const MobileNavMenu_02 = (props)=>{
+
     return(
         <MobileNavOverlayContent2>
             <MobileNavOverlayButtonContainer>
                 {props.set_current_nav_sections.map((sec, index)=>{
                     return(
                         <button key={index} onClick={props.handleSectionButtonClick}>
-                            <Link to={sec.path}>{sec.title}</Link>
+                            <Link to={'/'+sec.path}>{sec.title}</Link>
                         </button>)
                 })}
             </MobileNavOverlayButtonContainer>

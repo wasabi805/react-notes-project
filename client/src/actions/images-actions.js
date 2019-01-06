@@ -6,7 +6,11 @@ import {
     GET_IMAGES_008_C_BACKEND_ROUTES_PART_III,
     GET_IMAGES_008_D_BACKEND_ROUTES_PART_IV,
     GET_IMAGES_009_SETUP_REDUX,
-    GET_IMAGES_010_REDUX_REACT_ACTIONS, GET_IMAGES_008_B_BACKEND_ROUTES_PART_II
+    GET_IMAGES_010_REDUX_REACT_ACTIONS, GET_IMAGES_008_B_BACKEND_ROUTES_PART_II,
+
+    //API SECTIONS
+    GET_IMAGES_001_AJAX_AND_API_BASIC_API_CALLS,
+
 } from './types'
 
 import InitialState from '../reducers/images-reducer';
@@ -136,5 +140,17 @@ export const get_images_010_redux_react_actions =(images)=>{
         type: GET_IMAGES_010_REDUX_REACT_ACTIONS,
         payload: images
     }
-
 };
+
+//API SECTIONS
+
+export const get_images_001_ajax_and_api_basic_api_calls =(images)=> {
+    images = InitialState.images_001_ajax_and_api_basic_api_call;
+
+    return {
+        type: GET_IMAGES_001_AJAX_AND_API_BASIC_API_CALLS,
+        payload: images
+    }
+};
+
+

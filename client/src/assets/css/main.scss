@@ -1,7 +1,14 @@
 @import ".././sass/screen-media-queries";
-@import "../sass/nav-modal";
 @include screen-media-queries;
+@import "../sass/nav-modal";
 @include nav-modal;
+@import "../sass/youtube-player-notes";
+@include youtube-player-notes;
+@import "../sass/inline_presenters";
+@include inline-presenters
+
+
+
 
 html{
   //overflow-x: hidden;
@@ -74,7 +81,7 @@ html{
 .code-block-snippet{
   display: block;
   padding: 1em;
-  font-size: 75%;
+
   border-bottom-left-radius: 6px;
   border-bottom-right-radius: 6px;
 
@@ -90,12 +97,14 @@ html{
   background-color: black;
   color: white;
   overflow: overlay;
+  font-family: "Menlo" ;
 }
 
 .inline-snippet{
   display: block;
   color: #f2f2f2;
   background-color: black;
+
 }
 
 
@@ -275,9 +284,27 @@ html{
   font-size: 12px;
   background-color: #131414;
 
+
   ul{
     height: 100%;
+
+    li{
+      width: 12em;
+    }
+
+
+    @media only screen  and (min-width : 1025px) {
+
+      font-size: 1.3em;
+    }
+
+    @media only screen  and (min-width : 1500px) {
+        margin-top: 1.1em;
+        font-size: 1.5em;
+    }
   }
+
+
 }
 
 
@@ -339,9 +366,8 @@ html{
 .dropdown-container {
   display: none;
   background-color: #262626;
-  padding-left: 8px;
   li{
-    font-size: 1.1em;
+    font-size: 13px;
   }
 
 }
@@ -399,15 +425,13 @@ html{
 }
 
 //For code Snippets:
+.highlight-text-wrapper{
+
+};
 
 .highlight-text{
   background-image: linear-gradient(#121929, #504848);
-  padding: .1em .4em;
-
-  //border-top-right-radius: 2px;
-  //border-top-left-radius: 2px;
-  //border-bottom-right-radius: 2px;
-  //border-bottom-left-radius: 2px;
+  padding: .1em 0;
 }
 
 .indent_list{
@@ -486,25 +510,59 @@ html{
 }
 
 .breakdown-main{
-  overflow-x: scroll;
-  background-color: #54a7a226;
-  padding: 1em 0;
-  border-radius: 6px;
-  p{
-    margin: 0;
-  }
+  position: relative;
+  //overflow: hidden;
 
+
+  border-style:  solid;
+  border-radius: 6px;
+  margin-left: 0.5em;
+  padding-left: 2em;
+  line-height: 28px;
+  width: calc(100%);
+  //height : calc(100%);
+
+
+  z-index: 1;
+
+  &:before{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 2em;
+    width: calc(100%);
+
+
+    background: url("https://i.ibb.co/5Gh0V6J/notebook-paper-background-5.jpg") fixed ;
+    background-repeat: repeat-y;
+
+    opacity: 0.2;
+    z-index: 0;
+
+    @media only screen and (min-width : 1026px)  {
+      background: url("https://i.ibb.co/LvMfQ5W/notebook-binder-paper-03.jpg") fixed center ;
+    }
+
+  }
 };
 
-.breakdown-li{
-  font-size: 10px;
-  width: max-content;
+.breakdown-text-overlay{
+  padding: 2em;
+  position: relative;
+  z-index: 2;
+
+  @media only screen and (min-width : 1500px)  {
+    font-size: 19px;
+    line-height: 47px;
+  }
+
 }
 
 .breakdown-code-style-ide{
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New", monospace;
   font-weight: lighter;
-  font-size: 9.75px;
 }
 
 
@@ -517,20 +575,6 @@ html{
   height: 200px;
   float: left;
 }
-
-.body-container{
-  background-image: url(https://image.ibb.co/gZKe8A/81571260-ice-cream-geometrical-seamless-pattern-memphis-style-trendy-80s-90s-style-cartoon-hand-drawn-motifs.jpg);
-
-
-  @media only screen  and (min-width : 1025px){
-    left: 12em;
-    position: relative;
-    height: 100%;
-    padding-bottom: 10em;
-  }
-
-}
-
 
 .inline-item-container{
   display: block;

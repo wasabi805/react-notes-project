@@ -48,6 +48,7 @@ class IssueToken extends Component{
                         </SectionHeaderTextBox>
 
                         <ArticleContainer>
+
                             <ImageContainer>
                                 <Image img={hero_img_token}/>
                             </ImageContainer>

@@ -56,6 +56,136 @@ export const PlaceHolderReact = <Highlight language="javascript" className='code
     `}
 </Highlight>;
 
+//SECTION : AJAX and API
+// @URL: /basic-api-call
+export const InstallDepsBasicApiCall =
+    <Highlight key='install-deps-basic-api-call-express-axios' language="javascript" className='code-block-snippet terminal'>
+        {`npm i express axios`}
+    </Highlight>;
+
+export const InstallNodemonBasicApiCall =
+    <Highlight key='install-deps-basic-api-call-nodemon' language="javascript" className='code-block-snippet terminal'>
+        {`npm i -D --save-dev nodemon`}
+    </Highlight>;
+
+export const SetUpServerJs =
+    <Highlight key='set-sup-server-js' language="javascript" className='code-block-snippet ide'>
+        {`
+        const express = require('express');
+        const app = express();
+        app.get('/', (req, res)=>{
+
+        res.send('Hello, this is the 1st, server route')});
+
+        app.use('/api/users', users);
+
+        const port = 5000;
+        app.listen(port, ()=>{
+            console.log(${portString});
+        });
+
+        `}
+    </Highlight>;
+//Make this SetUpUsersJs01
+export const SetUpUsersJs =
+    <Highlight key='set-up-users-js-basic-api-call' language="javascript" className='code-block-snippet ide'>
+        <span className='muted'>{`
+        const express = require('express');
+        const router = express.Router();
+        const axios = require('axios');
+
+        router.get('/test' , (req,res)=> res.json({msg: 'users route works'}));`}</span>
+        <span className='text-moccasin'>{`
+        router`}</span><span className='text-cyan'>{`.get(`}</span>{`'/all-users' , (req , `}<span className='text-yellow'><i>{`res`}</i></span>{`)=>{ `}
+        <span className='text-purple'>{`
+            axios`}</span><span className='text-cyan'>{`.get(`}</span><span className='text-lime'>{`'https://jsonplaceholder.typicode.com/users'`}</span>{`,`}<span className='text-yellow'><i>{`res`}</i></span><span className='text-cyan'>{`)`}</span><span className='text-red'>{`.then(`}</span>
+        <span className='text-orange'><i>{`
+              user`}</i></span>{` =>{ `}
+        {`
+                console.log(`}<span className='text-orange'><i>{`user`}</i></span> {`, '***This is the response from the server****') ;
+              }`}<span className='text-red'>{`)`}</span>{`.catch(err => console.log(err))}`}<span className='text-cyan'>{`)`}</span>{`;`}
+        {`
+
+        module.exports = [`}<span className='text-moccasin'>{`router`}</span> {`,`} <span className='text-purple'>{`axios`}</span>{`];
+        `}
+
+    </Highlight>;
+
+export const SetUpUsersJs02 =
+    <Highlight key='set-up-users-js-02-basic-api-call' language="javascript" className='code-block-snippet ide'>
+        <span className='muted'>{`
+        const express = require('express');
+        const router = express.Router();
+        const axios = require('axios');
+
+        router.get('/test' , (req,res)=> res.json({msg: 'users route works'}));`}</span>
+        <span className='text-moccasin muted-2'>{`
+        router`}</span><span className='text-cyan muted-2'>{`.get(`}</span><span className='muted-2'>{`'/all-users' , (req , `}</span><span className='text-yellow muted-2'><i>{`res`}</i></span><span className='muted-2'>{`)=>{ `}</span>
+        <span className='text-purple muted-2'>{`
+            axios`}</span><span className='text-cyan muted-2'>{`.get(`}</span><span className='text-lime muted-2'>{`'https://jsonplaceholder.typicode.com/users'`}</span>{`,`}<span className='text-yellow muted-2'><i>{`res`}</i></span><span className='text-cyan muted-2'>{`)`}</span><span className='text-red muted-2'>{`.then(`}</span>
+        <span className='text-orange'><i>{`
+              user`}</i></span>{` =>{ `}
+        <span className='text-yellow'><i>{`
+                res`}</i></span>{`.send(`}<span className='text-orange'><i>{`user`}</i></span>{`.data);`}
+        <span className='muted-2'>{`
+                console.log(`}</span><span className='text-orange muted-2'><i>{`user`}</i></span> <span className='muted-2'>{`, '***This is the response from the server****') ;`}</span>
+        <span className='text-white'>{`
+              }`}</span><span className='text-red muted-2'>{`)`}</span><span className='muted-2'>{`.catch(err => console.log(err))}`}</span><span className='text-cyan muted-2'>{`)`}</span><span className='muted-2'>{`;`}</span>
+
+        <span className='muted-2'>{`
+
+        module.exports = [`}</span><span className='text-moccasin muted-2'>{`router`}</span> {`,`} <span className='text-purple muted-2'>{`axios`}</span>{`];
+        `}
+
+
+    </Highlight>;
+
+export const DeclareProxyServer =
+    <Highlight key='declare-proxy-server' language="javascript" className='code-block-snippet ide'>
+    {`
+    "proxy" : "http://localhost:5000/"
+    `}
+    </Highlight>;
+
+
+
+export const FetchAPI =
+    <Highlight key='fetch-api' language="javascript" className='code-block-snippet ide'>
+    <span className='muted-2'>{`
+        import React, {Component} from 'react';
+
+        class RenderUsers extends Component{
+          constructor(props){
+             super(props);`}</span>{`
+             this.`}<span className='text-orange-return'>{`state`}</span>{`={ `}
+                <span className='text-cyan'>{`
+                  users`}</span>{`: [],
+             }`}<span className='muted-2'>{`
+          }
+        }`}</span>
+
+    <span className='text-lime'>{`
+        componentDidMount() {`}</span><span className='text-hotpink'>{`
+            fetch(`}</span>{`'/api/users/all-users'`}<span className='text-hotpink'>{`)`}</span><span className='text-blue'>{`.then(`}</span><span className='text-pink'><i>{`res`}</i></span>{` =>`}<span className='text-pink'><i>{`res`}</i></span>{`.json()`}<span className='text-blue'>{`)`}</span><span className='text-red'>{`.then(`}</span>
+            <span className='text-moccasin'><i>
+            {`
+                users`}</i></span>{`=> this.setState({`}<span className='text-cyan'>{`users`}</span> {`:`} <span className='text-moccasin'><i>{`users`}</i></span>{`})`}<span className='text-red'>{`)`}</span><span className='text-lime'>{`
+        }
+        `}</span>
+        <span className='muted-2'>{`
+        render(){
+           return(
+              <div>`}</span>{`
+                 {this.`}<span className='text-orange-return'>{`state`}</span>{`.`}<span className='text-cyan'>{`users`}</span>{`}`}
+        <span className='muted-2'>{`
+              </div>
+           )
+        }
+
+        export default RenderUsers
+            `}</span>
+    </Highlight>;
+
 
 //SECTION : Install React
 // @URL: install-react

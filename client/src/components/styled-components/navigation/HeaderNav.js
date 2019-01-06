@@ -17,22 +17,12 @@ export const NavBarContainer = styled.div.attrs({
     -webkit-box-shadow: 1px 10px 100px 0px rgba(0,0,0,0.75);
     -moz-box-shadow: 1px 10px 100px 0px rgba(0,0,0,0.75);
     box-shadow: 1px 10px 100px 0px rgba(0,0,0,0.75);
-`;
-
-export const NavBarTopRow = styled.div.attrs({
-    className: 'navbar-top-row',
-})`
-    position: relative;
-    top: 3%;
-    width: 100%;
-    height: 3em;
-`;
-
-export const NavBarBottomRow = styled.div.attrs({
-    className: 'navbar-bottom-row',
-})`
-    position: relative;
-    bottom: 0;
+    
+    @media only screen  and (min-width : 1500px) {
+       height: 5em;
+    }
+   
+    
 `;
 
 export const HamburgerContainer = styled.div.attrs({
@@ -61,30 +51,34 @@ export const LogoContainer = styled.div.attrs({
 })`
     position: relative;
     width: 100%;
-    height: 50%;
-    transform: translateY(50%);
+   
    
     h1{
-        
         position: absolute;
+        top 0;
         margin: 0;
+        transform: translateY(50%);
+        
         font-family: Thunderstorm;
         color: hotpink;
         right: 25px;
         font-size: 1.4em;
         text-shadow: 3px 3px 0px #2da7a7;
-    }
         
-        
-        
-    }
-    
-    @media only screen  and (min-width : 1025px) {
-       h1{
-            left: 36px;
+        @media only screen  and (min-width : 1025px) {
             font-size: 28px;
-       }
+            left: 36px;
+        }
+        
+        @media only screen  and (min-width : 1500px) {
+           
+           font-size: 2.7em;
+           top: -12px;  
+        }
     }
+        
+        
+   
     
 `;
 
@@ -121,21 +115,15 @@ export const NavBarHeaderLinkContainer = styled.ul.attrs({
         display: inline;
         left: -1em;
         font-size: 1.2em;
-        
-       
     }
-    
-    // @media only screen  and (min-width : 1501px) { 
-    //     font-size: 1.8em;
-    // }
-     
+  
     @media only screen  and (min-width : 1501px) { 
-        font-size: 1.8em;
+        font-size: 1.4em;
     }
     
     @media only screen  and (min-width : 1824px) {
       
-        font-size: 2em;
+        font-size: 1.2em;
     }
 
   

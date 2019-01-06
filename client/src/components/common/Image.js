@@ -5,7 +5,7 @@ import {ImageStyled, ImageLayer01Styled, StepLayer01Styled, ImageWrapperStyled} 
 
 const Image = (props)=>{
 
-    console.log(props.img.img_properties.src, 'wutang');
+
     // console.log(props.img.container_properties, 'whats in here???');
     // console.log(props.img.img_layers);
 
@@ -27,7 +27,7 @@ const Image = (props)=>{
                 </ThemeProvider>
 
                 {/* Step Icon for Layer 0ne*/}
-                {console.log(props.img.img_layers.step_layer_01,'step_layer_01' )}
+                {/*{console.log(props.img.img_layers.step_layer_01,'step_layer_01' )}*/}
 
 
                 {/*<ThemeProvider theme={props.img.img_layers.step_layer_01 || {display:'none'}}>*/}

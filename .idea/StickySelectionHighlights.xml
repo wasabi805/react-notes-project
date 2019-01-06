@@ -73,6 +73,11 @@
             <PaintGroupHighlightMap />
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/client/src/assets/sass/_inline_presenters.scss">
+          <value>
+            <PaintGroupHighlightMap />
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/client/src/assets/sass/_nav-modal.scss">
           <value>
             <PaintGroupHighlightMap />
@@ -84,6 +89,11 @@
           </value>
         </entry>
         <entry key="$PROJECT_DIR$/client/src/assets/sass/_vars.scss">
+          <value>
+            <PaintGroupHighlightMap />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/client/src/assets/sass/_youtube-player-notes.scss">
           <value>
             <PaintGroupHighlightMap />
           </value>
@@ -148,12 +158,32 @@
             <PaintGroupHighlightMap />
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/client/src/components/common/i-frame-resizer.js">
+          <value>
+            <PaintGroupHighlightMap />
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/client/src/components/common/inline-image-container.js">
           <value>
             <PaintGroupHighlightMap />
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/client/src/components/common/inline-presenter-B.js">
+          <value>
+            <PaintGroupHighlightMap />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/client/src/components/common/inline-presenters.js">
+          <value>
+            <PaintGroupHighlightMap />
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/client/src/components/common/inline-textbox-container.js">
+          <value>
+            <PaintGroupHighlightMap />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/client/src/components/common/youtube.js">
           <value>
             <PaintGroupHighlightMap />
           </value>
@@ -323,7 +353,22 @@
             <PaintGroupHighlightMap />
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/client/src/components/section-components/900-youtube-player-test.js">
+          <value>
+            <PaintGroupHighlightMap />
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/client/src/components/section-components/GIMP-section/000-gimp-link.js">
+          <value>
+            <PaintGroupHighlightMap />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/client/src/components/section-components/ajax-and-api/001-basic-api-call.js">
+          <value>
+            <PaintGroupHighlightMap />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/client/src/components/section-components/ajax-and-api/basic-api-call.js">
           <value>
             <PaintGroupHighlightMap />
           </value>
@@ -449,6 +494,31 @@
           </value>
         </entry>
         <entry key="$PROJECT_DIR$/client/src/store.js">
+          <value>
+            <PaintGroupHighlightMap />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/package.json">
+          <value>
+            <PaintGroupHighlightMap />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/routes/api/users/users.js">
+          <value>
+            <PaintGroupHighlightMap />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/routes/api/youtube.js">
+          <value>
+            <PaintGroupHighlightMap />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/routes/api/youtube/youtube.js">
+          <value>
+            <PaintGroupHighlightMap />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/server.js">
           <value>
             <PaintGroupHighlightMap />
           </value>

@@ -12,7 +12,10 @@ import {
     GET_008_D_BACKEND_ROUTES_PART_IV_PASSPORT,
 
     GET_009_SET_UP_REDUX,
-    GET_010_REDUX_REACT_ACTIONS
+    GET_010_REDUX_REACT_ACTIONS,
+
+    //API SECTIONS
+    GET_SNIPPETS_001_AJAX_AND_API_BASIC_API_CALLS,
 
 } from './types'
 
@@ -38,8 +41,23 @@ import {
     KeyValueFromReducer, ConnectMapStateToPropsAndMapDispatchToProps, DeconstructPropsAndState, CreateCaseInReducer,
     ConditionalRenderInitState, ImportPropTypes, RegisterPropTypes, ReduxReactActionsSummary,
 
+    //API AND AJAX SECTIONS
+    InstallDepsBasicApiCall, InstallNodemonBasicApiCall, SetUpServerJs, SetUpUsersJs, DeclareProxyServer,FetchAPI, SetUpUsersJs02
+
 
 } from '../components/code-snipets/01-install-react-code-snippets'
+
+//API SECTIONS
+export const get_snippets_001_ajax_and_api_basic_api_calls =(code, inline_snippet)=>{
+
+    code = [SetUpServerJs, SetUpUsersJs, DeclareProxyServer, FetchAPI, SetUpUsersJs02];
+    inline_snippet=[NpmInitBackend, InstallDepsBasicApiCall, InstallNodemonBasicApiCall, ];
+
+    return{
+        type: GET_SNIPPETS_001_AJAX_AND_API_BASIC_API_CALLS,
+        payload: [code, inline_snippet],
+    }
+};
 
 export const get_001_InstallReact = (code)=>{
     code = [GlobalInstallReactSnippet, CreateProjectSnippet, StartReactSnippet];
@@ -153,6 +171,10 @@ export const get_010_redux_react_actions_snippets =(code)=>{
         payload: code,
     }
 };
+
+
+
+
 
 
 

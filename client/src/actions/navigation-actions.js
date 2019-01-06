@@ -1,5 +1,27 @@
-import{GET_MOBILE_NAV_SECTIONS, GET_CURRENT_MOBILE_SECTIONS_ON_CLICK , } from './types';
-import {initialState} from '../reducers/navigation-reducer'
+import{ GET_SIDE_NAV_SECTION_LINKS, GET_MOBILE_NAV_SECTIONS, GET_CURRENT_MOBILE_SECTIONS_ON_CLICK , } from './types';
+import {initialState} from '../reducers/navigation-reducer';
+
+
+export const get_side_nav_sections =()=>{
+    let allSections = initialState.nav_buttons;
+
+    return{
+        type: GET_SIDE_NAV_SECTION_LINKS,
+        payload: allSections
+    }
+};
+
+
+
+
+
+
+
+
+
+
+//MOBILE NAV ACTIONS
+//----------------START-------------------------------------------------
 
 export const get_mobile_nav_sections =()=>{
     let allSections = initialState.nav_buttons;
@@ -49,3 +71,5 @@ export const get_current_mobile_sections_on_click =(click_id)=>{
         payload: sections
     }
 };
+
+//--------------------END---------------------------------------------

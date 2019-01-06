@@ -17,10 +17,33 @@ export const BodyContainer = styled.div.attrs({
     className : 'body-container',
 })`
     filter: ${props=> props.theme.filter};
+    background-image: url(https://image.ibb.co/gZKe8A/81571260-ice-cream-geometrical-seamless-pattern-memphis-style-trendy-80s-90s-style-cartoon-hand-drawn-motifs.jpg);
     transition: all .3s linear;
-    // transform: ${props=>props.theme.transform || 'scale(1.03)'} ;
+    
+    
+    
+    //NOTE: for the width, the -12em is from the dropdown-container .li font size : Since the nav column is fixed.
+  
     @media only screen  and (min-width : 1025px){
-        transform: scale(1.03);
+        width: calc(97% - 12em );
+        margin-top: 3.7em;
+        left: 14em;
+        position: relative;
+        height: 100%;
+        padding-bottom: 10em;
+    
+        transform: scale(1.0);
+    }
+    
+    @media only screen  and (min-width : 1500px){
+        width: calc(97% - 11.3em);
+        margin-top: 4.2em;
+        left: 15.9em;
+        position: relative;
+        height: 100%;
+        padding-bottom: 10em;
+    
+        transform: scale(1.0);
     }
 `;
 
@@ -35,7 +58,7 @@ export const MainContent = styled.div.attrs({
     className : 'main-content'
 })`
     position: relative;
-    // flex-direction: column;
+   
     
     padding: 0em;
     width: 100%;
@@ -55,8 +78,14 @@ export const MainContent = styled.div.attrs({
     @media only screen  and (min-width : 1025px){ 
         border-style: none;
         margin-left: 1.5em;
-        width: 97.9%;
-        top: 3em;
+   
+        top: 2em;
+        padding-right: 5em;
+    }
+    
+    @media only screen  and (min-width : 1500px){ 
+       
+    
     }
 `;
 
@@ -68,6 +97,7 @@ export const Section = styled.section.attrs({
     position: relative;
     z-index: 2;
     border-radius: 2px;
+    
     
     
     img{
@@ -84,12 +114,13 @@ export const Section = styled.section.attrs({
         line-height: 1.125em;
         font-weight: 300;
     }
-    p, li{
-        font-size: 12px;
+   
+    @media only screen and (min-width : 1025px){
+        
     }
     
-    @media only screen and (min-width : 1025px){
-       padding-right:13em;
+    @media only screen and (min-width : 1500px){
+        
     }
     
 `;
@@ -136,8 +167,6 @@ export const ArticleContainer = styled.div.attrs({
         
         margin-bottom: 10px;
         margin-top: 14px;
-        
-        
     }
     
     h3{
@@ -235,12 +264,11 @@ export const SectionHeaderTextBox = styled.div.attrs({
     className : 'section-header-text-box'
 })`
     position: relative; 
+    
     background-color: #33a5a5e6;
     border-radius: 3px 3px 0px 0px;
     padding 10px;
-    
-    
-    
+   
     h1{
         font-size: 1.5em;
         margin-top: 0.25em;
@@ -254,13 +282,14 @@ export const SectionHeaderTextBox = styled.div.attrs({
         color: #fff4f4;
         
         left: 4em;
-    line-height: 1.125em;
-    font-weight: 300;
-    padding-top: 0.08em;
-    padding-bottom: 0.2em;
-    padding-left: 0.6em;
-        
+        line-height: 1.125em;
+        font-weight: 300;
+        padding-top: 0.08em;
+        padding-bottom: 0.2em;
+        padding-left: 0.6em;
     }
+    
+    
     
 `;
 
@@ -268,6 +297,7 @@ export const TextBox = styled.div.attrs({
     className : 'text-box'
 })`
    position: relative;
+   
     margin: 8px;
     padding: 10px;
     background-color: #e1e3e3d4;
@@ -276,11 +306,34 @@ export const TextBox = styled.div.attrs({
    
     p{
         padding: 0 1em;
+        font-size: 0.85em;
     }
    
     ul{
         font-size: 8px;
     } 
+    
+    @media only screen and (min-width : 768px){
+        h2{
+            font-size: 2.2em;
+        }
+    
+       p{
+            font-size: 1.1em;
+       }
+    }
+    
+    @media only screen and (min-width : 1025px){
+       p{
+            font-size: 1.2em;
+       }
+    }
+    
+    @media only screen and (min-width : 1500px){
+       p{
+            font-size: 1.438em;
+       }
+    }
 `;
 
 export const InlineTextBoxContainerStyled = styled(TextBox).attrs({
@@ -363,8 +416,6 @@ export const TextBoxPreface = styled.div.attrs({
     border-radius: 3px;
     border-radius: 5px;
     
-   
-    // background-color: #e1e3e34a;
     box-shadow: 0 0 5px #635959ab;
     background-color: #17a2b8;
     
@@ -372,14 +423,11 @@ export const TextBoxPreface = styled.div.attrs({
        
     }
     
-    
     ul{
-       
         padding-left: 1em;
         color: #e6ebec;
     }
-    
-    
+   
     p{
         color: #ede3e3;
     }
@@ -391,8 +439,11 @@ export const Snippet = styled.div.attrs({
 })`
     margin: 0 -1px;
     border-top-left-radius: 6px;
-    // border-top-right-radius: 6px;
     margin: 0 -1px;
+    
+    @media only screen  and (min-width : 1500px){
+        font-size: 1.5em;
+    }
     
 `;
 

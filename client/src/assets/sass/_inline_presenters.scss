@@ -1,0 +1,83 @@
+@mixin inline-presenters{
+  .inline-container-A {
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    border-style: solid;
+    margin-bottom: 1em;
+    z-index: 1;
+
+    p{
+      z-index: 5;
+    }
+
+    &:after{
+      content: "";
+      background: url("https://i.ibb.co/Qb2ghPc/wrinkled-graph-paper-background.jpg") fixed center;
+      background-size: contain;
+      opacity: 0.27;
+      top: 0;
+      left: 0;
+      bottom: 0;
+      right: 0;
+      position: absolute;
+      z-index: 0;
+    }
+
+    .inline-text-right{
+      width: 100%;
+      order: -1;
+      text-align: center;
+      background-size: 300px;
+    }
+
+    .inline-text-left{
+      width: 100%;
+      order: -1;
+      text-align: center;
+    }
+
+    .inline-snippet-left{
+      width: 100%;
+      z-index: 5;
+    }
+
+    .inline-snippet-right{
+      width: 100%;
+      z-index: 5;
+    }
+
+    @media only screen  and (min-width : 1025px){
+      flex-direction: row;
+
+      .inline-text-right{
+        width: 50%;
+        display: flex;
+        align-items: center;
+        order: 0;
+      }
+      .inline-text-left{
+        width: 50%;
+        display: flex;
+        align-items: center;
+        order: -1;
+      }
+
+      .inline-snippet-left{
+        width: 50%;
+        padding: 2em;
+      }
+      .inline-snippet-right{
+        width: 50%;
+        padding: 2em;
+      }
+    }
+
+
+
+  };
+
+
+
+
+}

@@ -4,7 +4,11 @@ import {GET_003_CREATE_BACKEND_SERVER, GET_IMAGES_004_MLAB_SETUP, GET_IMAGES_005
     GET_IMAGES_008_C_BACKEND_ROUTES_PART_III,
     GET_IMAGES_008_D_BACKEND_ROUTES_PART_IV,
     GET_IMAGES_009_SETUP_REDUX,
-    GET_IMAGES_010_REDUX_REACT_ACTIONS} from '../actions/types'
+    GET_IMAGES_010_REDUX_REACT_ACTIONS,
+    //    API SECTIONS
+    GET_IMAGES_001_AJAX_AND_API_BASIC_API_CALLS,
+
+} from '../actions/types'
 
 export const initialState ={
 
@@ -1344,7 +1348,6 @@ export const initialState ={
 
     },
 
-
     images_009_set_up_redux: {
         reduxLogo:{
             key: 'react-redux-logo',
@@ -1389,6 +1392,132 @@ export const initialState ={
 
     },
 
+    //API  and AJAX SECTIONS
+
+    images_001_ajax_and_api_basic_api_call:{
+
+        hero_img_api_logo:{
+            key: 'hero-img-api_logo',
+            img_properties: {
+                src: 'https://i.ibb.co/pwngvbz/api-icon-9.png',
+            },
+            container_properties:{
+                position: 'relative',
+                display: 'block',
+                width: '58%',
+                margin: '0 auto',
+            },
+
+            img_layers: {
+                layer_01: {},
+                layer_02: {},
+
+            }
+        },
+
+        create_server_js:{
+            key: 'create-server-js',
+            img_properties: {
+                src: 'https://i.ibb.co/F31hXXr/create-server-js.png',
+            },
+            container_properties:{
+                position: 'relative',
+                display: 'block',
+                width: '75%',
+                margin: '0 auto',
+            },
+
+            img_layers: {
+                layer_01: {},
+                layer_02: {},
+
+            }
+        },
+
+        create_users_js:{
+            key: 'create-users-js',
+            img_properties: {
+                src: 'https://i.ibb.co/3BwQtVk/create-users-js.png',
+            },
+            container_properties:{
+                position: 'relative',
+                display: 'block',
+                width: '75%',
+                margin: '0 auto',
+            },
+
+            img_layers: {
+                layer_01: {},
+                layer_02: {},
+
+            }
+        },
+
+        verify_ajax_call_01:{
+            key: 'verify-ajax-call_01',
+            img_properties: {
+                src: 'https://i.ibb.co/tDd9nx8/verify-ajax-call-01.png',
+            },
+            container_properties:{
+                position: 'relative',
+                display: 'block',
+                width: '98%',
+                margin: '0 auto',
+            },
+
+            img_layers:{
+                layer_01: {
+                    display: 'inline-block',
+                    position: 'absolute',
+                    width: '100%',
+                    marginTop: '-20%',
+                    paddingLeft: '44%',
+                    paddingRight: '0',
+                    transform: 'scale(1 , 0.2)',
+                    src: 'https://image.ibb.co/jGJZN0/pen-circle-png-1.png',
+                },
+            }
+
+        },
+
+        verify_ajax_call_02:{
+            key: 'verify-ajax-call_02',
+            img_properties: {
+                src: 'https://i.ibb.co/bJd7VNq/verify-ajax-call-02.png',
+            },
+            container_properties:{
+                position: 'relative',
+                display: 'block',
+                width: '98%',
+                margin: '0 auto',
+            },
+
+            img_layers: {
+                layer_01: {},
+                layer_02: {},
+            }
+        },
+
+        verify_ajax_call_03:{
+            key: 'verify-ajax-call_03',
+            img_properties: {
+                src: 'https://i.ibb.co/sQn9LRF/verify-ajax-call-03.png',
+            },
+            container_properties:{
+                position: 'relative',
+                display: 'block',
+                width: '98%',
+                margin: '0 auto',
+            },
+
+            img_layers: {
+                layer_01: {},
+                layer_02: {},
+            }
+        },
+
+    },
+
     section_images: {}
 
 };
@@ -1428,6 +1557,10 @@ export default (state=initialState, action) =>{
             return action.payload;
 
         case GET_IMAGES_010_REDUX_REACT_ACTIONS:
+            return  action.payload
+
+        //API SECTION
+        case GET_IMAGES_001_AJAX_AND_API_BASIC_API_CALLS:
             return  action.payload
 
         default:

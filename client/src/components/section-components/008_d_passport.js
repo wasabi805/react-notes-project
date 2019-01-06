@@ -33,7 +33,7 @@ class ImplementPassport extends Component{
     }
 
     render(){
-        console.log(this.props, 'this.props');
+
         let { passport_config_file, hero_img_passport, postman_verify_auth_obtain_token, postman_verify_auth_add_token_to_header, postman_verify_auth_check_terminal, } = this.state.images;
         let {text, code_snippets, inline_snippets} =this.state;
         let {jwt_strategy, create_protected_route} = this.state.text;

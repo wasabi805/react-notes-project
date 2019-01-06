@@ -15,7 +15,6 @@ export const SideNavUL = styled.ul.attrs({
     
     a, .dropdown-btn{
         padding: 6px 8px 6px 16px;
-        margin-right: 2em;
         text-decoration: none;
         font-size: 0.9em;
         color: #fdfdfd;
