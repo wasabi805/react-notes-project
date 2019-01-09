@@ -17,56 +17,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="001-basic-api-call.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/client/src/components/section-components/ajax-and-api/001-basic-api-call.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="316">
-              <caret line="41" column="0" lean-forward="false" selection-start-line="41" selection-start-column="0" selection-end-line="41" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="02-side-bar.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/client/src/components/02-side-bar.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-17">
-              <caret line="23" column="0" lean-forward="false" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
-              <folding>
-                <element signature="e#0#39#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="main-mobile-nav-overlay.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/client/src/components/navigation/mobile-nav/main-mobile-nav-overlay.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-501">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding>
-                <element signature="e#0#38#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="moble-nav-menu-01.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/client/src/components/navigation/mobile-nav/moble-nav-menu-01.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding>
-                <element signature="e#0#26#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="navigation-actions.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/client/src/actions/navigation-actions.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="116">
+            <state relative-caret-position="120">
               <caret line="6" column="0" lean-forward="false" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
               <folding>
                 <element signature="e#0#117#0" expanded="true" />
@@ -75,22 +29,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="moble-nav-menu-02.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/client/src/components/navigation/mobile-nav/moble-nav-menu-02.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="5" column="0" lean-forward="false" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
-              <folding>
-                <element signature="e#0#26#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="navigation-links.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/client/src/components/navigation/navigation-links.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="140">
+            <state relative-caret-position="600">
               <caret line="28" column="0" lean-forward="true" selection-start-line="28" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
               <folding>
                 <element signature="e#0#38#0" expanded="true" />
@@ -99,11 +41,63 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="code-breakdown.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="code-breakdown.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/client/src/components/common/code-breakdown.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-134">
-              <caret line="38" column="29" lean-forward="true" selection-start-line="38" selection-start-column="29" selection-end-line="38" selection-end-column="29" />
+            <state relative-caret-position="888">
+              <caret line="37" column="21" lean-forward="false" selection-start-line="37" selection-start-column="21" selection-end-line="37" selection-end-column="21" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ImageContainers.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/client/src/components/styled-components/common/ImageContainers.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="2712">
+              <caret line="116" column="3" lean-forward="false" selection-start-line="116" selection-start-column="3" selection-end-line="116" selection-end-column="3" />
+              <folding>
+                <element signature="e#0#26#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="900-youtube-player-test.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/client/src/components/section-components/900-youtube-player-test.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="265">
+              <caret line="45" column="57" lean-forward="false" selection-start-line="45" selection-start-column="57" selection-end-line="45" selection-end-column="57" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="keys_dev.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/config/keys_dev.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/.gitignore">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="48">
+              <caret line="2" column="19" lean-forward="true" selection-start-line="2" selection-start-column="19" selection-end-line="2" selection-end-column="19" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="keys_prod.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/config/keys_prod.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -112,7 +106,7 @@
       <file leaf-file-name="section-text.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/client/src/reducers/text/section-text.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="56">
+            <state relative-caret-position="432">
               <caret line="18" column="25" lean-forward="false" selection-start-line="18" selection-start-column="19" selection-end-line="18" selection-end-column="25" />
               <folding />
             </state>
@@ -122,7 +116,7 @@
       <file leaf-file-name="navigation-reducer.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/client/src/reducers/navigation-reducer.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="86">
+            <state relative-caret-position="936">
               <caret line="39" column="33" lean-forward="true" selection-start-line="39" selection-start-column="33" selection-end-line="39" selection-end-column="33" />
               <folding />
             </state>
@@ -133,7 +127,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>main-conten</find>
       <find>body-conta</find>
       <find>side-nav</find>
       <find>body-container</find>
@@ -163,6 +156,7 @@
       <find>z</find>
       <find>NavigationLinks</find>
       <find>user argument of our callback</find>
+      <find>image-wra</find>
     </findStrings>
     <dirStrings>
       <dir>$PROJECT_DIR$/client/src/components/section-components</dir>
@@ -176,7 +170,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/client/src/components/section-components/003-create-back-end-server.js" />
         <option value="$PROJECT_DIR$/client/src/components/section-components/junk.js" />
         <option value="$PROJECT_DIR$/client/src/components/section-components/008_b_login.js" />
         <option value="$PROJECT_DIR$/client/.babelrc" />
@@ -208,10 +201,8 @@
         <option value="$PROJECT_DIR$/routes/api/users/users.js" />
         <option value="$PROJECT_DIR$/client/src/components/common/inline-presenters.js" />
         <option value="$PROJECT_DIR$/client/src/components/code-snipets/01-install-react-code-snippets.js" />
-        <option value="$PROJECT_DIR$/client/src/components/section-components/900-youtube-player-test.js" />
         <option value="$PROJECT_DIR$/client/src/assets/sass/_inline_presenters.scss" />
         <option value="$PROJECT_DIR$/client/src/assets/images/tan-index-card_Clipart_svg_File.svg" />
-        <option value="$PROJECT_DIR$/client/src/components/styled-components/common/ImageContainers.js" />
         <option value="$PROJECT_DIR$/client/src/components/styled-components/navigation/HeaderNav.js" />
         <option value="$PROJECT_DIR$/client/src/reducers/images-reducer.js" />
         <option value="$PROJECT_DIR$/client/src/components/styled-components/common/Sections.js" />
@@ -227,6 +218,9 @@
         <option value="$PROJECT_DIR$/client/src/components/navigation/navigation-links.js" />
         <option value="$PROJECT_DIR$/client/src/reducers/text/section-text.js" />
         <option value="$PROJECT_DIR$/client/src/components/common/code-breakdown.js" />
+        <option value="$PROJECT_DIR$/client/src/components/styled-components/common/ImageContainers.js" />
+        <option value="$PROJECT_DIR$/client/src/components/section-components/900-youtube-player-test.js" />
+        <option value="$PROJECT_DIR$/.gitignore" />
       </list>
     </option>
   </component>
@@ -247,8 +241,10 @@
     <handled-path value="$PROJECT_DIR$/node_modules" />
   </component>
   <component name="ProjectFrameBounds" fullScreen="true">
-    <option name="width" value="1280" />
-    <option name="height" value="800" />
+    <option name="x" value="711" />
+    <option name="y" value="-1080" />
+    <option name="width" value="1920" />
+    <option name="height" value="1080" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
@@ -295,130 +291,7 @@
             <path>
               <item name="react-notes-project" type="b2602c69:ProjectViewProjectNode" />
               <item name="react-notes-project" type="462c0819:PsiDirectoryNode" />
-              <item name="client" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="react-notes-project" type="b2602c69:ProjectViewProjectNode" />
-              <item name="react-notes-project" type="462c0819:PsiDirectoryNode" />
-              <item name="client" type="462c0819:PsiDirectoryNode" />
-              <item name="public" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="react-notes-project" type="b2602c69:ProjectViewProjectNode" />
-              <item name="react-notes-project" type="462c0819:PsiDirectoryNode" />
-              <item name="client" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="react-notes-project" type="b2602c69:ProjectViewProjectNode" />
-              <item name="react-notes-project" type="462c0819:PsiDirectoryNode" />
-              <item name="client" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="actions" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="react-notes-project" type="b2602c69:ProjectViewProjectNode" />
-              <item name="react-notes-project" type="462c0819:PsiDirectoryNode" />
-              <item name="client" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="assets" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="react-notes-project" type="b2602c69:ProjectViewProjectNode" />
-              <item name="react-notes-project" type="462c0819:PsiDirectoryNode" />
-              <item name="client" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="components" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="react-notes-project" type="b2602c69:ProjectViewProjectNode" />
-              <item name="react-notes-project" type="462c0819:PsiDirectoryNode" />
-              <item name="client" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="components" type="462c0819:PsiDirectoryNode" />
-              <item name="code-snipets" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="react-notes-project" type="b2602c69:ProjectViewProjectNode" />
-              <item name="react-notes-project" type="462c0819:PsiDirectoryNode" />
-              <item name="client" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="components" type="462c0819:PsiDirectoryNode" />
-              <item name="common" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="react-notes-project" type="b2602c69:ProjectViewProjectNode" />
-              <item name="react-notes-project" type="462c0819:PsiDirectoryNode" />
-              <item name="client" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="components" type="462c0819:PsiDirectoryNode" />
-              <item name="navigation" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="react-notes-project" type="b2602c69:ProjectViewProjectNode" />
-              <item name="react-notes-project" type="462c0819:PsiDirectoryNode" />
-              <item name="client" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="components" type="462c0819:PsiDirectoryNode" />
-              <item name="navigation" type="462c0819:PsiDirectoryNode" />
-              <item name="mobile-nav" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="react-notes-project" type="b2602c69:ProjectViewProjectNode" />
-              <item name="react-notes-project" type="462c0819:PsiDirectoryNode" />
-              <item name="client" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="components" type="462c0819:PsiDirectoryNode" />
-              <item name="section-components" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="react-notes-project" type="b2602c69:ProjectViewProjectNode" />
-              <item name="react-notes-project" type="462c0819:PsiDirectoryNode" />
-              <item name="client" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="components" type="462c0819:PsiDirectoryNode" />
-              <item name="section-components" type="462c0819:PsiDirectoryNode" />
-              <item name="ajax-and-api" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="react-notes-project" type="b2602c69:ProjectViewProjectNode" />
-              <item name="react-notes-project" type="462c0819:PsiDirectoryNode" />
-              <item name="client" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="reducers" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="react-notes-project" type="b2602c69:ProjectViewProjectNode" />
-              <item name="react-notes-project" type="462c0819:PsiDirectoryNode" />
-              <item name="client" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="reducers" type="462c0819:PsiDirectoryNode" />
-              <item name="text" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="react-notes-project" type="b2602c69:ProjectViewProjectNode" />
-              <item name="react-notes-project" type="462c0819:PsiDirectoryNode" />
-              <item name="routes" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="react-notes-project" type="b2602c69:ProjectViewProjectNode" />
-              <item name="react-notes-project" type="462c0819:PsiDirectoryNode" />
-              <item name="routes" type="462c0819:PsiDirectoryNode" />
-              <item name="api" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="react-notes-project" type="b2602c69:ProjectViewProjectNode" />
-              <item name="react-notes-project" type="462c0819:PsiDirectoryNode" />
-              <item name="routes" type="462c0819:PsiDirectoryNode" />
-              <item name="api" type="462c0819:PsiDirectoryNode" />
-              <item name="users" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="react-notes-project" type="b2602c69:ProjectViewProjectNode" />
-              <item name="react-notes-project" type="462c0819:PsiDirectoryNode" />
-              <item name="routes" type="462c0819:PsiDirectoryNode" />
-              <item name="api" type="462c0819:PsiDirectoryNode" />
-              <item name="youtube" type="462c0819:PsiDirectoryNode" />
+              <item name="config" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -505,35 +378,38 @@
       <workItem from="1545939785627" duration="40097000" />
       <workItem from="1545998731949" duration="27187000" />
       <workItem from="1546056944846" duration="73000" />
-      <workItem from="1546059185368" duration="107346000" />
+      <workItem from="1546059185368" duration="107842000" />
+      <workItem from="1546903884873" duration="1428000" />
+      <workItem from="1546994701583" duration="191000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1205105000" />
+    <option name="totallyTimeSpent" value="1207220000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="0" width="1280" height="800" extended-state="0" />
+    <frame x="711" y="-1080" width="1920" height="1080" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="DB Browser" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32956383" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="DB Execution Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2713068" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.44554454" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="JSON Viewer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Code comment" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21001616" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2087327" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="JSON Utils" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32956383" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="IDEtalk Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32520324" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Copy/Paste" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -563,30 +439,9 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/client/src/assets/sass/_screen-media-queries.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/client/src/assets/sass/_nav-modal.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/package-lock.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-1873">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config/keys.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
@@ -603,9 +458,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="363">
           <caret line="71" column="0" lean-forward="true" selection-start-line="71" selection-start-column="0" selection-end-line="71" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#557#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -613,9 +465,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-13">
           <caret line="132" column="23" lean-forward="true" selection-start-line="132" selection-start-column="23" selection-end-line="132" selection-end-column="23" />
-          <folding>
-            <element signature="e#0#612#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -631,9 +480,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="168">
           <caret line="18" column="62" lean-forward="false" selection-start-line="18" selection-start-column="62" selection-end-line="18" selection-end-column="62" />
-          <folding>
-            <element signature="e#0#327#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -641,23 +487,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="5" selection-end-column="1" />
-          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/client/src/components/common/youtube.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/client/src/components/common/youtube.js" />
     <entry file="file://$PROJECT_DIR$/server.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="240">
           <caret line="10" column="0" lean-forward="true" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -665,9 +502,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="3" selection-end-line="15" selection-end-column="36" />
-          <folding>
-            <element signature="n#!!doc" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -675,7 +509,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="249">
           <caret line="23" column="6" lean-forward="true" selection-start-line="23" selection-start-column="6" selection-end-line="23" selection-end-column="6" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -683,7 +516,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="625">
           <caret line="29" column="34" lean-forward="false" selection-start-line="29" selection-start-column="34" selection-end-line="29" selection-end-column="34" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -707,7 +539,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="269">
           <caret line="52" column="85" lean-forward="false" selection-start-line="52" selection-start-column="71" selection-end-line="52" selection-end-column="85" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -715,7 +546,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="312">
           <caret line="13" column="3" lean-forward="true" selection-start-line="13" selection-start-column="3" selection-end-line="13" selection-end-column="3" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -723,7 +553,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1226">
           <caret line="60" column="0" lean-forward="true" selection-start-line="60" selection-start-column="0" selection-end-line="60" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -731,7 +560,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="216">
           <caret line="9" column="0" lean-forward="false" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -739,28 +567,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="456">
           <caret line="21" column="22" lean-forward="false" selection-start-line="21" selection-start-column="22" selection-end-line="21" selection-end-column="22" />
-          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/client/src/assets/images/tan-index-card_Clipart_svg_File.svg">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/client/src/assets/images/tan-index-card_Clipart_svg_File.svg" />
     <entry file="file://$PROJECT_DIR$/client/src/components/code-snipets/01-install-react-code-snippets.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="715">
           <caret line="178" column="60" lean-forward="true" selection-start-line="178" selection-start-column="42" selection-end-line="178" selection-end-column="60" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/client/src/components/section-components/900-youtube-player-test.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="532">
-          <caret line="51" column="66" lean-forward="false" selection-start-line="51" selection-start-column="66" selection-end-line="51" selection-end-column="66" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -768,7 +582,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="183">
           <caret line="9" column="6" lean-forward="false" selection-start-line="9" selection-start-column="6" selection-end-line="9" selection-end-column="6" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -776,17 +589,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="653">
           <caret line="31" column="0" lean-forward="false" selection-start-line="31" selection-start-column="0" selection-end-line="31" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/client/src/components/styled-components/common/ImageContainers.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="212">
-          <caret line="51" column="60" lean-forward="true" selection-start-line="51" selection-start-column="60" selection-end-line="51" selection-end-column="60" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -794,9 +596,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="92">
           <caret line="4" column="0" lean-forward="false" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -804,7 +603,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="108">
           <caret line="437" column="25" lean-forward="true" selection-start-line="437" selection-start-column="25" selection-end-line="437" selection-end-column="25" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -812,9 +610,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-3273">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#39#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -822,9 +617,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="240">
           <caret line="10" column="14" lean-forward="false" selection-start-line="10" selection-start-column="4" selection-end-line="10" selection-end-column="14" />
-          <folding>
-            <element signature="e#0#38#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -832,7 +624,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="264">
           <caret line="50" column="39" lean-forward="false" selection-start-line="50" selection-start-column="13" selection-end-line="50" selection-end-column="39" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -848,7 +639,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-7">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -864,7 +654,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="306">
           <caret line="556" column="20" lean-forward="true" selection-start-line="556" selection-start-column="20" selection-end-line="556" selection-end-column="20" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -872,9 +661,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-806">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -882,9 +668,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="436">
           <caret line="22" column="82" lean-forward="false" selection-start-line="22" selection-start-column="49" selection-end-line="22" selection-end-column="82" />
-          <folding>
-            <element signature="e#0#39#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -892,33 +675,26 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="172">
           <caret line="72" column="21" lean-forward="false" selection-start-line="72" selection-start-column="21" selection-end-line="72" selection-end-column="21" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/client/src/components/02-side-bar.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-17">
+        <state relative-caret-position="384">
           <caret line="23" column="0" lean-forward="false" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#39#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/client/src/components/navigation/mobile-nav/main-mobile-nav-overlay.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-501">
+        <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#38#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/client/src/components/navigation/mobile-nav/moble-nav-menu-02.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
+        <state relative-caret-position="72">
           <caret line="5" column="0" lean-forward="false" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
           <folding>
             <element signature="e#0#26#0" expanded="true" />
@@ -938,7 +714,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/client/src/components/section-components/ajax-and-api/001-basic-api-call.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="316">
+        <state relative-caret-position="672">
           <caret line="41" column="0" lean-forward="false" selection-start-line="41" selection-start-column="0" selection-end-line="41" selection-end-column="0" />
           <folding />
         </state>
@@ -946,7 +722,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/client/src/actions/navigation-actions.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="116">
+        <state relative-caret-position="120">
           <caret line="6" column="0" lean-forward="false" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
           <folding>
             <element signature="e#0#117#0" expanded="true" />
@@ -956,7 +732,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/client/src/reducers/navigation-reducer.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="86">
+        <state relative-caret-position="936">
           <caret line="39" column="33" lean-forward="true" selection-start-line="39" selection-start-column="33" selection-end-line="39" selection-end-column="33" />
           <folding />
         </state>
@@ -964,7 +740,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/client/src/components/navigation/navigation-links.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="140">
+        <state relative-caret-position="600">
           <caret line="28" column="0" lean-forward="true" selection-start-line="28" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
           <folding>
             <element signature="e#0#38#0" expanded="true" />
@@ -974,7 +750,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/client/src/reducers/text/section-text.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="56">
+        <state relative-caret-position="432">
           <caret line="18" column="25" lean-forward="false" selection-start-line="18" selection-start-column="19" selection-end-line="18" selection-end-column="25" />
           <folding />
         </state>
@@ -982,8 +758,50 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/client/src/components/common/code-breakdown.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-134">
-          <caret line="38" column="29" lean-forward="true" selection-start-line="38" selection-start-column="29" selection-end-line="38" selection-end-column="29" />
+        <state relative-caret-position="888">
+          <caret line="37" column="21" lean-forward="false" selection-start-line="37" selection-start-column="21" selection-end-line="37" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/src/components/styled-components/common/ImageContainers.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2712">
+          <caret line="116" column="3" lean-forward="false" selection-start-line="116" selection-start-column="3" selection-end-line="116" selection-end-column="3" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/src/components/section-components/900-youtube-player-test.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="265">
+          <caret line="45" column="57" lean-forward="false" selection-start-line="45" selection-start-column="57" selection-end-line="45" selection-end-column="57" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/keys_dev.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="48">
+          <caret line="2" column="19" lean-forward="true" selection-start-line="2" selection-start-column="19" selection-end-line="2" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/keys_prod.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>

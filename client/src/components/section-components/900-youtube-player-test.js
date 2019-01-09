@@ -10,6 +10,7 @@ class YoutubePlayer extends Component{
             test: {},
 
             myTracks:{
+                africa: 'FTQbiNvZqaY',
                 childishGambino: 'diLp6hUqvVk',
                 runTheJewels: 'EBYsx1QWF9A',
                 duckTales: 'YKSU82afy1w',
@@ -18,8 +19,8 @@ class YoutubePlayer extends Component{
 
 
             opts:{
-                height: '360',
-                width: '640',
+                height: '660', //def is 360
+                width: '640', //def is 640
                 playerVars: { // https://developers.google.com/youtube/player_parameters
                     autoplay: 1,
                     // controls: 0,
@@ -49,7 +50,7 @@ class YoutubePlayer extends Component{
                             <p>see Axios for API call  <a href='https://www.twilio.com/blog/2017/08/http-requests-in-node-js.html#h.q507yorsxhq4'>Resizer</a></p>
                             <div className='video-container'>
                                 <YouTube
-                                    videoId={myTracks.runTheJewels
+                                    videoId={myTracks.africa
                                     }
                                     opts={opts}
                                     onReady={this._onReady}

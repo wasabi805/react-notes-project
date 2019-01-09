@@ -1,0 +1,28 @@
+{
+  "name": "react-notes-project",
+  "version": "1.0.0",
+  "description": "my notes",
+  "main": "index.js",
+  "dependencies": {
+    "axios": "^0.18.0",
+    "babel-cli": "^6.26.0",
+    "body-parser": "^1.18.3",
+    "express": "^4.16.4"
+  },
+  "devDependencies": {
+    "nodemon": "^1.18.9"
+  },
+  "scripts": {
+    "start": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wasabi805/react-notes-project.git"
+  },
+  "author": "Tim Ocampo",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/wasabi805/react-notes-project/issues"
+  },
+  "homepage": "https://github.com/wasabi805/react-notes-project#readme"
+}

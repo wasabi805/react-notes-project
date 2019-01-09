@@ -114,6 +114,7 @@ export const ImageWrapperStyled = styled.div.attrs({
         padding-right: ${props=>props.theme.paddingRight};
         transform: ${props=>props.theme.transform || ''}  ;
     }
+    
 `;
 ImageWrapperStyled.defaultProps={
     theme:{
@@ -307,7 +308,7 @@ export const MlabSignUpCircleImg = styled.div.attrs({
     
     @media only screen and (min-width : 300px) and (max-width: 499px) {
              padding-left: 70%
-        }
+    }
     
     img{
         margin: 0;
