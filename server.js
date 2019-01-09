@@ -4,10 +4,6 @@ const path= require('path');
 
 const users = require('./routes/api/users/users');
 
-app.get('/', (req, res)=>{
-    res.send('Hello, this is the 1st, server route')
-});
-
 app.use('/api/users', users);
 
 //Server static if in prod
