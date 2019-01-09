@@ -1,14 +1,14 @@
 import React from 'react';
-import {Section, Wrapper,ArticleContainer, TextBox} from '../styled-components/common/Sections';
+import {Section, Article,ArticleContainer, TextBox} from '../styled-components/common/Sections';
 
 const Landing = ()=>{
     return(
         <Section>
-            <Wrapper>
+            <Article>
                 <ArticleContainer>
                     <h1>WELCOME<span><h2>to CodingBudy!</h2></span> </h1>
-
-                    <img src='http://i44.photobucket.com/albums/f27/wasabi805/Cute-Deadpool-Chibi-PNG_zpsafcjdmiq.png' alt='' />
+                    < img src='https://i.ibb.co/RBCX5z0/p2-Vri-Y-iron-man-free-download-transparent-zpsd7czzddj.png' alt='' />
+                    < img style={{width:"50%"}} src='https://i.ibb.co/n1J9wCQ/under-construction.png' alt='' />
 
                     <TextBox className='article-preface'>
                         <h2>Before We Start</h2>
@@ -35,7 +35,7 @@ const Landing = ()=>{
 
                     </TextBox>
                 </ArticleContainer>
-            </Wrapper>
+            </Article>
         </Section>
     )
 };

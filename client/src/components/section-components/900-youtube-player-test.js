@@ -50,7 +50,7 @@ class YoutubePlayer extends Component{
                             <p>see Axios for API call  <a href='https://www.twilio.com/blog/2017/08/http-requests-in-node-js.html#h.q507yorsxhq4'>Resizer</a></p>
                             <div className='video-container'>
                                 <YouTube
-                                    videoId={myTracks.africa
+                                    videoId={myTracks.runTheJewels
                                     }
                                     opts={opts}
                                     onReady={this._onReady}
